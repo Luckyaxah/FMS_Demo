@@ -1,0 +1,29 @@
+{
+  "name": "project",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+
+  "properties": {
+    "id": {
+      "type": "number",
+      "id": 1
+    },
+    "name": {
+      "type": "string",
+      "require": true
+    },
+    "otherPriKey": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

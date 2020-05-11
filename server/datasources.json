@@ -1,0 +1,13 @@
+{
+  "mysqlDB": {
+    "host": "",
+    "port": 3307,
+    "url": "",
+    "database": "",
+    "password": "",
+    "name": "mysqlDB",
+    "user": "root",
+    "connector": "mysql"
+  }
+  
+}

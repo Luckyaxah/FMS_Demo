@@ -1,0 +1,60 @@
+{
+  "name": "record",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "mysql": {
+    "table": "record"
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "id":true
+    },
+    "record_date": {
+      "type": "date"
+    },
+    "happen_date": {
+      "type": "date"
+    },
+    "trading_time": {
+      "type": "string"
+    },
+    "expend": {
+      "type": "number"
+    },
+    "income": {
+      "type": "number"
+    },
+    "balance": {
+      "type": "number"
+    },
+    "col1": {
+      "type": "string"
+    },
+    "abstract": {
+      "type": "string"
+    },
+    "opposite_account": {
+      "type": "string"
+    },
+    "opposite_name": {
+      "type": "string"
+    },
+    "trading_place": {
+      "type": "string"
+    },
+    "project_id_m": {
+      "type": "string"
+    },
+    "bank_id": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
