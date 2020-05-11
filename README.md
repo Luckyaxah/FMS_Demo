@@ -1,7 +1,7 @@
 # 初始化项目，安装依赖
 
 ```s
-$ yarn init
+$ yarn install
 ```
 
 # 启动项目
